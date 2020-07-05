@@ -37,7 +37,7 @@ class Experience(models.Model):
         return self.title
 
 # Awards.
-class Awards(models.Model):
+class Award(models.Model):
     period = models.CharField(max_length=9, verbose_name="Period")
     title = models.CharField(max_length=100, verbose_name="Title/Award")
     enterprise = models.CharField(max_length=100, verbose_name="Enterprise")
